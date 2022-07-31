@@ -1,0 +1,138 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+a {
+   color: #0047FF;
+}
+
+body {
+   padding-bottom: 100px;
+}
+
+/* =================================================== */
+
+[class*="__container"] {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+/* =================================================== */
+
+.wrapper {
+   margin: 0 auto;
+}
+
+header {
+   width: 100%;
+   background-color: #F0F0F0;
+}
+
+.header__container {
+   display: flex;
+   height: 70px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+ul {
+   display: flex;
+   gap: 21px;
+}
+
+.exit {
+   cursor: pointer;
+}
+
+.email {
+   display: flex;
+   gap: 20px;
+}
+
+.email span img {
+   display: block;
+}
+
+.user {
+   margin-top: 44px;
+}
+
+.user a {
+   display: block;
+   margin-top: 11px;
+   text-decoration: none;
+   margin-bottom: 74px;
+}
+
+.wallets span {
+   display: block;
+   margin-bottom: 21px;
+   font-size: 24px;
+}
+
+.block_cards {
+   margin-bottom: 21px;
+   display: flex;
+   gap: 24px;
+}
+
+.card {
+   width: 282px;
+   height: 160px;
+   padding: 19px 23px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border-radius: 15px;
+   color: white;
+   background-image: linear-gradient(to right, #D7816A, #BD4F6C);
+}
+
+.card1 {
+   background-image: linear-gradient(to right, #5F0A87, #A4508B);
+}
+
+.card2 {
+   background-image: linear-gradient(to right, #20BF55, #01BAEF);
+}
+
+.card3 {
+   background-image: linear-gradient(to right, #380036, #0CBABA);
+}
+
+.visa {
+   font-size: 24px;
+}
+
+.latest_transactions {
+   margin-top: 74px;
+}
+
+.info {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 32px;
+}
+
+hr {
+   width: 100%;
+   height: 2px;
+   border: none;
+   background-color: grey;
+}
+
+a:last-child {
+   margin-top: 21px;
+   display: block;
+}
